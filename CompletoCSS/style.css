@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.navbar {
+    margin: 0;
+    width: 100%;
+    background-color: gray;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+.navbar:hover {
+    background-color: rgb(8, 146, 114);
+}
+
+.active {
+    background-color: rgb(8, 146, 114);
+}
+
+i {
+    padding: 0 5px;
+}
+
+.responsive {
+    display: none;
+}
+
+@media (max-width: 400px) {
+    .responsive {
+        display: block;
+        float: right;
+        padding: 12px;
+    }
+    a {
+        display:none
+    }
+}
+
+.introduction {
+    text-align: center;
+    margin: 0 15%;
+}
